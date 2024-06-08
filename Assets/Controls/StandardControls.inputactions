@@ -1,0 +1,82 @@
+{
+    "name": "StandardControls",
+    "maps": [
+        {
+            "name": "Console",
+            "id": "0675f3be-5b90-49a3-9d3c-9335ecf80f4b",
+            "actions": [
+                {
+                    "name": "Toggle",
+                    "type": "Button",
+                    "id": "eab33924-1dac-4712-8a4a-641a6352865c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Submit",
+                    "type": "Button",
+                    "id": "9f843716-6d01-4382-b822-263ea6bd2fa1",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "da2bec1b-5fa1-4f03-9805-c9a58afd338e",
+                    "path": "<Keyboard>/backquote",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Toggle",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "867599fe-5abe-4216-9d75-7b0bcf37bdd7",
+                    "path": "<Keyboard>/enter",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Submit",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "GameControls",
+            "id": "356acb1d-0db4-49c8-94e8-b28ed2db7983",
+            "actions": [
+                {
+                    "name": "MenuToggle",
+                    "type": "Button",
+                    "id": "76584806-1ac1-47be-a283-60c8f3daf150",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "8c0aaaaf-3778-483a-ada7-aa8d6877c0c2",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MenuToggle",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
